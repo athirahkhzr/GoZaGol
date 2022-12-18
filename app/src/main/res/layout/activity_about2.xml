@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EBD9"
+    tools:context=".About2">
+
+    <ImageView
+        android:id="@+id/ivG"
+        android:layout_width="139dp"
+        android:layout_height="116dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/play_store_512" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivG"
+        android:layout_centerHorizontal="true"
+        android:text="@string/app_name"
+        android:textColor="#E91E63"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/tvCopy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/copyright"
+        android:textColor="#009688"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCopy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:text="GoZaGol is an application that has been created to calculate the zakat payment for gold keeping. The name GoZaGol is stand for Go Zakat Gold. Go means to move very quickly to get to know the total payment. Za means Zakat which user need to pay for. Gol is Gold where the zakat will be calculated based on the gold. "
+        android:textColor="#0E0E0E"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvHyperlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="440dp"
+        android:text="@string/hyperlink"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+</RelativeLayout>
